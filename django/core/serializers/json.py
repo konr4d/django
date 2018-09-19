@@ -8,7 +8,7 @@ from __future__ import unicode_literals
 
 import datetime
 import decimal
-import json
+import simplejson as json
 import sys
 
 from django.core.serializers.base import DeserializationError
